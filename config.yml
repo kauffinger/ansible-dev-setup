@@ -26,8 +26,11 @@ sudoers_custom_config: ""
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - bat
   - comopser
+  - fzf
   - git
+  - git-lfs
   - gh
   - go
   - gpg
@@ -47,6 +50,7 @@ homebrew_installed_packages:
   - wezterm
   - wget
   - zsh-history-substring-search
+  - zoxide
 
 homebrew_taps:
   - homebrew/core
